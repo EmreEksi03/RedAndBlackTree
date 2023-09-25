@@ -13,6 +13,9 @@ public class Node {
     }
     public Node() {
     }
+    public Node(int element) {
+        this.element = element;
+    }
 
     public Node getParent() {
         return parent;
